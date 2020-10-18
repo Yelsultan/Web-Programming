@@ -1,0 +1,67 @@
+.container{
+    text-align:center;
+}
+
+.header {
+  color: #000;
+    font-size: 50px;
+}
+
+.gameboard {
+    margin: 3% 36%;
+}
+
+table {
+    background-color: #fff;
+    text-align:center;
+    color: green;
+    border: 2px solid black;
+}
+
+.square{
+    width:100px;
+    height:100px;
+    border: 1px solid #000;;
+}
+
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+.play-again {
+    margin-top: -7px;
+  }
+
+.play-again:hover {
+    background: #000;
+    color: #fff;
+  }
+
+#board {
+    display: inline-block;
+    margin-top:2%;
+
+}
+.invisible {
+    visibility:hidden;
+}
+.visible {
+    visibility:visible;
+}
+
+p {
+    margin-left:25%;
+    margin-right:25%;
+
+}
+
+.winning-square {
+  color: #fff;
+  background: green;
+}
