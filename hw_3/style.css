@@ -1,0 +1,271 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    color: black;
+    font-size: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo{
+    height: 25px;
+    width: 31px;
+}
+
+
+/*NAV*/
+#nav__link{
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    word-spacing: 15px;
+    color: black;
+    padding-left: 20px;
+}
+
+/*INTRO*/
+.intro{
+    padding-top: 170px;
+    padding-bottom: 190px;
+    background-image: url(assets/images/bacgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.intro__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.intro__text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    padding-bottom: 20px;
+}
+
+#contact__btn{
+    background-color: #10C9C3;
+    border: none;
+    padding: 15px 48px;
+    
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    
+}
+
+/*SECTION ABOUT US*/
+.section__title{
+    padding-top: 100px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    
+    color: #191919;
+}
+
+.section__text{
+    padding-bottom: 10px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #787878;
+}
+
+.hand{
+    padding-bottom: 55px;
+}
+
+/*PROFESSIONAL SKILLS*/
+
+.prof__skils__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 84px;
+    
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.progress__name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    
+    padding-bottom: 17px;
+}
+
+/*NUMBERS*/
+.numbers{
+    background-color: #10C9C3;
+}
+
+#numbers__row{
+    color: #fff;
+}
+
+.number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.54px;
+}
+
+.number__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+#numbers__icon{
+    font-size: 40px;
+    color: white;
+}
+
+/*PHOTO*/
+
+
+/*LOAD BTN*/
+#load__btn{
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 40px 0;
+    
+    color: #8E8E8E;
+
+}
+
+/*SERVICES*/
+.service__name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    
+    color: #191919;
+    
+    letter-spacing: 1.2px;
+}
+
+.service__text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #787878;
+    
+    letter-spacing: 0.08px;
+}
+
+#service__icon{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #bab9b9;
+}
+
+/*TESTIMONIALS*/
+.testimonials{
+    background-color: #10C9C3;
+}
+.testi__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+    
+    letter-spacing: 0.3px;
+    
+    color: #FFFFFF;
+    
+    padding-top: 170px;
+}
+
+.testi__autor{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 36px;
+    
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 170px;
+}
+
+/*LOGOS*/
+
+#logos__item{
+    padding: 67px 0;
+}
+
+/*NEED A PROJECT*/
+#need__c{
+    max-width: 680px;
+}
+
+.need__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+    color: #1D1D1D;
+    
+    padding-top: 100px
+}
+
+.need__text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    color: #787878;
+    
+    padding-bottom: 40px
+}
