@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/images/curvefont/stylesheet.css">
+
+    <script src="https://kit.fontawesome.com/39f808761e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" style="cursor: pointer"><i class="fa fa-angle-up"></i></button>
+    <header class="header" id="myHeader">
+        <div class="container">
+            <div class="header__inner">
+                    <div class="logotype">
+                        <a href="#"><i id="logo" class="fas fa-route"></i></a>
+                    </div>
+                    <nav id="fixnav" class="nav">
+                        <a href="#sssss" id="nav__item1" class="nav__item">about</a>
+                        <a href="#things" id="nav__item2" class="nav__item">things to do</a>
+                        <a href="#videopart" id="nav__item3" class="nav__item">get inspired</a>
+                        <a href="#startpage" id="nav__item4" class="nav__item">packages</a>
+                        <a href="#gallerypage" id="nav__item5" class="nav__item">gallery</a>
+                    </nav>
+                    
+                    <a id="bars" onclick="openBar()" style="cursor: pointer"><i id="barc" class="fas fa-bars" style="font-size: 27px; color: white"></i></a>
+                
+            </div>
+            <div id="hidden__nav" class="auf">
+                    <a href="#sssss" id="hidden__id" class="hidden__item">about</a>
+                    <a href="#things" id="hidden__id" class="hidden__item">things to do</a>
+                    <a href="#videopart" id="hidden__id" class="hidden__item">get inspired</a>
+                    <a href="#startpage" id="hidden__id" class="hidden__item">packages</a>
+                    <a href="#gallerypage" id="hidden__id" class="hidden__item">gallery</a>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__title">
+                    <h1>Hawaii</h1>
+                </div>
+                <div class="intro__text">
+                    <p>You’ll always have fascinating places to be and friendly people to see.</p>
+                </div>
+                <div class="intro__button">
+                    <button class="button" type="button">Starting from just <span class="price">$199</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="sssss" class="explore">
+        <div class="container">
+            <div class="explore__inner">
+                <div class="explore__title">
+                    <h1>Explore Save Share</h1>
+                </div>
+                <div class="explore__subtitle">
+                    PLAN YOUR <span class="dream">dream</span> VACATION.
+                </div>
+                <div class="explore__items">
+                    <div class="explore__item">
+                        <i id="explore__icon" class="fas fa-bicycle"></i>
+                        <div class="explore__name">EXCLUSIVE PACKAGE</div>
+                        <div class="explore__text">
+                            <p>Easily offer your exclusive packages or promote your special promotions from adventure packages to special honeymoon packages with just a few image and text modifications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="explore__item">
+                        <i id="explore__icon2" class="fas fa-plane"></i>
+                        <div class="explore__name">PEACE OF MIND</div>
+                        <div class="explore__text">
+                            <p>Quick travel is very easy to customize html landing page which will help you launch your special holiday landing pages in matter of minutes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="explore__item">
+                        <i id="explore__icon" class="fas fa-map"></i>
+                        <div class="explore__name">BEST TRAVEL GUIDE</div>
+                        <div class="explore__text">
+                            <p>Either you are trageting single travel planners or group travel planners, Quick travel can work for both!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="static">
+        <div class="container">
+            <div class="static__inner">
+                <div id="static__title" class="intro__title">
+                    <h1>Hawaii</h1>
+                </div>
+                <div class="static__subtitle">
+                    <p>Get the <span class="special">special offers </span>directly in your email.</p>
+                </div>
+                <div class="ibutton">
+                    <form class="form" action="/action_page.php">
+                        <div class="static__email">
+                            <input id="statid" class="email" type="text" placeholder="Enter email address">
+                        </div>
+                        <div class="static__subs">
+                            <button id="subsid" class="subs" type="button" onclick="oneIfEmpty()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="things" class="things">
+        <div class="container">
+            <div class="things__inner">
+                <div class="explore__title">
+                    <h1>Things To Do</h1>
+                </div>
+                <div class="explore__subtitle">
+                    DISCOVER WHAT <span class="dream"> hawaii sunset</span> LOOKS LIKE
+                </div>
+
+                <div class="photontext">
+                    <div class="row1">
+                        <img id="photo__item" src="assets/images/tri/1.jpg" alt="">
+                        <div id="photo__item" class="photo__text">
+                            <div class="day">
+                                <h4>Day 1</h4>
+                            </div>
+                            <div class="photo__title">Mauna Kea Summit</div>
+                            <div class="photo__text">Ok, I see a lot of mixed reviews on this Road To Hana, and while some are valid, others are not. A lot of people seem to 'not get it'., so here I am...</div>
+                        </div>
+                        <img id="photo__item" src="assets/images/tri/2.jpg" alt="">
+                    </div>
+                    <div class="row2">
+                        <div id="photo__item" class="photo__text">
+                            <div class="day">
+                                <h4>Day 2</h4>
+                            </div>
+                            <div class="photo__title">Hanalei Bay</div>
+                            <div class="photo__text">This is one of the must see places in Maui while you are there. You could take a tour or drive on your own. If you take a tour, they stop at most places but I would...</div>
+                        </div>
+                        <img id="photo__item" src="assets/images/tri/3.jpg" alt="">
+                        <div id="photo__item" class="photo__text">
+                            <div class="day">
+                                <h4>Day 3</h4>
+                            </div>
+                            <div class="photo__title">Pololu Valley Lookout</div>
+                            <div class="photo__text">If you haven’t driven the Road to Hana before, this trip is all about Hawaiians and island life. Always start early and take your time. There are plenty...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="videopart" class="video">
+        <div class="video__play">
+            <div id="video__title" class="intro__title">
+                <h1>Get Inspired</h1>
+            </div>
+            <div class="play">
+                <i id="play__icon" class="fas fa-play" onclick="myFunction()"></i>
+            </div>
+        </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/images/video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <div id="startpage" class="start">
+        <div class="container">
+            <div class="start__inner">
+                <div id="col1" class="col1">
+                    <div class="starting">
+                        <p>Starting</p>
+                    </div>
+                    <div class="night199">
+                        <div class="oneninenine"><span class="dollar">$</span>199</div>
+                        <div class="perperson"><span class="per"> per person </span><br> 3 nights stay at Hawaii<br> air fair not included</div>
+                    </div>
+
+                    <div class="starting" style="margin-bottom: 30px">
+                        <p>Offer includes</p>
+                    </div>
+                    <div class="offer__items">
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-anchor" style="margin-right: 10px"></i>Lorem ipsum dolor.</div>
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-map" style="margin-right: 15px"></i>Sit amet, consectetur.</div>
+                    </div>
+                    <div class="offer__items">
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-bicycle" style="margin-right: 10px"></i>Adipiscing elit, sed.</div>
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-heart" style="margin-right: 20px"></i>Do eiusmod tempor.</div>
+                    </div>
+                    <div class="offer__items">
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-mobile-alt" style="margin-right: 25px"></i>Incididunt ut labore.</div>
+                        <div class="offer__item"><i id="offer__icon" class="fas fa-map-marker-alt" style="margin-right: 25px"></i>Et dolore magna aliqua.</div>
+                    </div>
+                    <div class="formore">
+                        <p>for more info call +77478451027</p>
+                    </div>
+                </div>
+                <div id="col2" class="col1">
+                    <div class="col__inner">
+                        <div class="starting" style="margin-top: 40px;">
+                            <p>Start your journey today!</p>
+                        </div>
+                        <div class="start__title">
+                            <h2>EXPLORE <span class="the">the </span>HAWAII</h2>
+                        </div>
+                        <div class="nameform">
+                            <p class="pi">Name:</p>
+                            <input id="redinp1" class="input__name" type="text">
+                        </div>
+                        <div class="nameform">
+                            <p class="pi">Email:</p>
+                            <input id="redinp2" class="input__name" type="email">
+                        </div>
+                        <div class="nameform">
+                            <p class="pi">Phone:</p>
+                            <input id="redinp3" class="input__name" type="text">
+                        </div>
+                        <div class="nameform">
+                            <p id="" class="pi">No. of people:</p>
+                            <input id="redinp4" class="input__name" type="text">
+                        </div>
+                        <div class="checks">
+                            <input class="check" type="checkbox" name="vehicle">
+                            <label for="vehicle" style="font-size: 14px; cursor: pointer; color: #000; font-weight: 400; line-height: .8; font-family: 'Merriweather', serif;"> Donec quis mauris mattis <br> <a href="#" class="terms" style="line-height: .8; color: #7ab55c; text-decoration: underline; font-weight: 500; font-size: 14px;">terms &amp; conditions</a></label><br>
+                            <button id="failed" class="booknow" type="button" onclick="fourIfEmpty()">Book Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mapsection">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480921.0490402172!2d-156.1203403567985!3d19.661654708057092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7953bd819bc89e11%3A0xf9159b9c95991c20!2z0JzQsNGD0L3QsC3QmtC10LA!5e0!3m2!1sru!2skz!4v1604500156358!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="peoplesaying">
+        <div class="container">
+            <div class="people__inner">
+                <div class="what">
+                    <h4>WHAT PEOPLE ARE SAYING...</h4>
+                </div>
+                <div class="space">
+                    <a class="prev" onclick="plusSlides(-1)" style="font-size: 30px">❮</a>
+                    <div class="review">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="people__text">
+                            <p>
+                                “Let the old men, the old women, and the children go and sleep on the wayside; let them not be molested.”
+                            </p>
+                        </div>
+                        <div class="people__name">
+                            <p>ZHANEL &amp; AYNA</p>
+                        </div>
+                        <div class="people__from">
+                            <p>ALMATY - KAZAKHSTAN</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="people__text">
+                            <p>
+                                “Hawaii is the only place in the 50 states where you can see the stars of the entire northern and southern hemispheres.”
+                            </p>
+                        </div>
+                        <div class="people__name">
+                            <p>AMIR &amp; NURSAT</p>
+                        </div>
+                        <div class="people__from">
+                            <p>AUSTRIA - VENA</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="people__text">
+                            <p>
+                                “Hawaii is the island of big dreams for both islanders and guests. Those dreams born in paradise can indeed come true.”
+                            </p>
+                        </div>
+                        <div class="people__name">
+                            <p>RANDY &amp; VICTORIA</p>
+                        </div>
+                        <div class="people__from">
+                            <p>CANBERRA - AUSTRALIA</p>
+                        </div>
+                    </div>
+
+                    <a class="next" onclick="plusSlides(1)" style="font-size: 30px">❯</a>
+                </div>
+            </div>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <section id="gallerypage" class="insta">
+        <div class="container">
+            <div class="insta__inner">
+                <div class="explore__title">
+                    <h1>Insta Snaps</h1>
+                </div>
+                <div class="explore__subtitle">
+                    EXPLORE THE HAWAII <span class="dream"> @whye1s</span>
+                </div>
+                <div class="gallery-section">
+                    <div class="inner-width">
+                        <div class="gallery">
+
+                            <a href="assets/images/insta/1.jpg" class="image">
+                                <img src="assets/images/insta/1.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/2.jpg" class="image">
+                                <img src="assets/images/insta/2.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/3.jpg" class="image">
+                                <img src="assets/images/insta/3.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/4.jpg" class="image">
+                                <img src="assets/images/insta/4.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/5.jpg" class="image">
+                                <img src="assets/images/insta/5.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/6.jpg" class="image">
+                                <img src="assets/images/insta/6.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/7.jpg" class="image">
+                                <img src="assets/images/insta/7.jpg" alt="">
+                            </a>
+
+                            <a href="assets/images/insta/8.jpg" class="image">
+                                <img src="assets/images/insta/8.jpg" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div id="bir" class="logotype">
+                    <a href="#"><i id="logo" class="fas fa-route" style="padding-bottom: 20px; color: #cad2d4;"></i></a>
+                </div>
+                <div id="bir" class="hrefs">
+                    <div class="href1">
+                        <ul>
+                            <li><a class="foothov" href="#">HOME</a></li>
+                            <li><a class="foothov" href="#sssss">ABOUT</a></li>
+                            <li><a class="foothov" href="#things">THINGS</a></li>
+                        </ul>
+                    </div>
+                    <div class="href2">
+                        <ul>
+                            <li><a class="foothov" href="#videopart">INSPIRED</a></li>
+                            <li><a class="foothov" href="#gallerypage">GALLERY</a></li>
+                            <li><a class="foothov" href="#startpage">PACKAGES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="bir" class="socials">
+                    <i id="socicon1" class="fab fa-facebook-f" style="padding: 12px 15px;"></i>
+                    <i id="socicon2" class="fab fa-twitter"></i>
+                    <i id="socicon3" class="fab fa-linkedin-in"></i>
+                    <i id="socicon4" class="fab fa-google"></i>
+                    <p class="copyright">©2020 Quick Launch. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="ifempty.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
+    <script type="text/javascript" src="totop.js"></script>
+    <script type="text/javascript" src="navbgonscroll.js"></script>
+    <script type="text/javascript" src="navs.js"></script>
+</body>
+
+</html>
