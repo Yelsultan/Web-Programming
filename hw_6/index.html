@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1 style="margin-top: 50px;">Sixth homework</h1>
+    <div class="box1"><!--TASK1 START-->
+        <div class="row1">
+            <div class="text">1st number: </div>
+            <input id="1st" type="text">
+        </div>
+        <div class="row2">
+            <div class="text">2nd number: </div>
+            <input id="2nd" type="text">
+        </div>
+        <div class="row3">
+            <button class="button1" onclick="multiply()">Multiply</button>
+            <button class="button2" onclick="divide()">Divide</button>
+            <br>
+        </div>
+        <div class="row4">
+            <div class="text" style="margin-right: 20px;">The result is:</div>
+            <p id="result"></p>
+        </div>
+    </div><!--TASK1 END-->
+    
+    <div class="box2"><!--TASK2 START-->
+        <div class="row1">
+            <div class="text">Enter value in Celsius:</div>
+            <input id="celsius" type="text">
+        </div>
+        <div class="row2">
+            <div class="text">Enter value in Fahrenheit:</div>
+            <input id="fahrenheit" type="text">
+        </div>
+        <div class="row3">
+            <button class="tocel" onclick="toFar()">Convert To Far</button>
+            <button class="tofar" onclick="toCel()">Convert To Cel</button>
+            <br>
+        </div>
+        <div class="is" style="margin-bottom: 10px;"><span id="1stc">60</span>°C is <span id="2ndf">60</span>°F</div>
+        <div class="is"><span id="1stf">60</span>°F is <span id="2ndc">60</span>°C</div>
+    </div> <!--TASK2 END-->
+    
+    <div class="box3"><!--TASK3 START-->
+        <div class="desc" style="margin-bottom: 10px;">
+            <p>Input radius value and get the volume of the sphere.</p>
+        </div>
+        <div class="row1">
+            <div class="text">Radius: </div>
+            <input id="radius" type="text">
+        </div>
+        <div class="row2">
+            <div class="text">Volume</div>
+            <input id="volume" type="text">
+        </div> 
+        <button class="calculate" type="text" onclick="calculate()">Calculate</button>
+    </div><!--TASK3 END-->
+    
+    <div class="box4"><!--TASK4 START-->
+        <div class="row1">
+            <div class="text">Number: </div>
+            <input id="number" type="text">
+        </div>
+        <button class="reverse" type="text" onclick="reverse()" style="margin-bottom: 10px;">Reverse</button>
+        <p id="reversed"></p>
+    </div><!--TASK4 END-->
+    
+    <div class="box4"><!--TASK5 START-->
+        <canvas id="canvasRect" width="150" height="150"></canvas>
+        <button onclick="drawRect()">Draw!</button>
+    </div><!--TASK5 END-->
+    
+    <div class="box4"><!--TASK6 START-->
+        <canvas id="canvasCircle" width="150" height="150"></canvas>
+        <button onclick="drawCircle()">Draw!</button>
+    </div><!--TASK6 END-->
+    
+    <div class="box5"><!--TASK7 START-->
+        <canvas id="myCanvas" width="1500" height="325"></canvas>
+        <button onclick="draw()">Draw!</button>
+    </div><!--TASK7 END-->
+    
+    <script type="text/javascript" src="jaes.js"></script>
+</body>
+
+</html>
