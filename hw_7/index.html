@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEWORK 7</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jaes.js" defer></script>
+</head>
+
+<body>
+    <div class="block">
+        <input type="text" id="setData" placeholder="dd-mm--yy">
+        <h1>Countdown to <span id="data"></span></h1>
+
+        <div class="countdown-container">
+            <div class="countdown">
+                <p class="text" id="days">0</p>
+                <p class="done" id="d">D</p>
+                <span>days</span>
+            </div>
+            <div class="countdown">
+                <p class="text" id="hours">0</p>
+                <p class="done" id="o">O</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown">
+                <p class="text" id="mins">0</p>
+                <p class="done" id="n">N</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown">
+                <p class="text" id="seconds">0</p>
+                <p class="done" id="e">E</p>
+                <span>seconds</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <h1 class="title">Word Counter</h1>
+        <textarea id="input" placeholder="Enter your text here:"></textarea>
+        <div class="props">
+            <div class="props__inner">
+                <p>Characters: <span id="chars">0</span></p>
+            </div>
+            <div class="props__inner">
+                <p>Words: <span id="word">0</span></p>
+            </div>
+        </div>
+        <div class="props">
+            <div class="props__inner">
+                <p>Sentences: <span id="sentences">0</span></p>
+            </div>
+            <div class="props__inner">
+                <p>Paragraphs: <span id="paragraphs">0</span></p>
+            </div>
+        </div>
+        <div class="props">
+            <div class="props__inner">
+                <p>Reading time: <span id="rtime">0</span> ~ min read</p>
+            </div>
+        </div>
+        <div class="keywords">
+            <p style="padding-bottom: 10px;">Top keywords:</p>
+            <ul id="topKeywords">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
