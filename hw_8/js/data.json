@@ -1,0 +1,42 @@
+var quizData = [
+    {
+        "question": "What does HTML stand for?",
+        "a": "Hyperlinks and Text Markup Language",
+        "b": "Hyper Text Markup Language",
+        "c": "Home Tool Markup Language",
+        "d": "High Tree Medium Leaf",
+        "correct": "b"
+    },
+    {
+        "question": "Choose the correct HTML tag for the largest heading.",
+        "a": "<heading>",
+        "b": "<h6>",
+        "c": "<head>",
+        "d": "<h1>",
+        "correct": "d"
+    },
+    {
+        "question": "What is the correct HTML tag for inserting a line break?",
+        "a": "<br>",
+        "b": "<lb>",
+        "c": "<break>",
+        "d": "<drake>",
+        "correct": "a"
+    },
+    {
+        "question": "Which of these tags are all <table> tags?",
+        "a": "<table><head><tfoot>",
+        "b": "<table><tr><td>",
+        "c": "<thead><body><tr>",
+        "d": "<table><tr><tt>",
+        "correct": "b"
+    },
+    {
+        "question": "How can you make a numbered list?",
+        "a": "<ol>",
+        "b": "<ul>",
+        "c": "<dl>",
+        "d": "<list>",
+        "correct": "a"
+    }
+];

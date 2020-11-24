@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 8</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="main" id="main">
+        <div class="name__container">
+            <div class="name__inner">
+                <form method="POST" id="signup__form" class="signup__form">
+                    <h2 class="form__title">Welcome! What's your name?</h2>
+                    <div class="form__group">
+                        <input type="text" class="form__input" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="form__group">
+                        <input type="text" class="form__input" name="surname" id="surname" placeholder="Surname">
+                    </div>
+                    <div class="form__group">
+                        <input type="button" name="submit" id="submit" class="form__submit" value="Start Quiz!" onclick="startQuiz()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="quiz__section" id="quiz__section">
+        <div class="quiz__container" id="quiz">
+            <div class="quiz__inner">
+                <h2 id="question__title">Question text</h2>
+                <ul>
+                    <li><input type="radio" id="a" name="answer" class="answer">
+                        <label id="a__text" for="a">Question</label>
+                    </li>
+                    <li><input type="radio" id="b" name="answer" class="answer">
+                        <label id="b__text" for="b">Question</label>
+                    </li>
+                    <li><input type="radio" id="c" name="answer" class="answer">
+                        <label id="c__text" for="c">Question</label>
+                    </li>
+                    <li><input type="radio" id="d" name="answer" class="answer">
+                        <label id="d__text" for="d">Question</label>
+                    </li>
+                </ul>
+            </div>
+            <button type="submit" id="subm" class="next">Submit</button>
+        </div>
+    </div>
+    <div class="results" id="resultSec">
+        <div class="results__container" id="results__container">
+            <div id="results__inner">
+
+            </div>
+            <button id="refr" onclick="location.reload()">Retake quiz.</button>
+        </div>
+    </div>
+    <script src="js/data.json"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+</body>
+
+</html>
