@@ -167,7 +167,7 @@ body {
     overflow: hidden;
 
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .map {
@@ -178,6 +178,8 @@ body {
     max-width: 1200px;
 
     font-size: 40px;
+    
+    color: #192a56;
 }
 
 .mapdiv {
@@ -193,7 +195,7 @@ body {
 }
 
 .mapdiv path {
-    fill: #ecf0f1;
+    fill: #fffaee;
     stroke: #bcbcbc;
     stroke-width: .5px;
 
@@ -205,14 +207,163 @@ body {
 }
 
 .mapdiv a :hover {
-    fill: #f1c40f;
+    fill: #ffda79;
 }
 
 .city__names {
     fill: #192a56;
 
-    cursor: pointer
+    cursor: pointer;
+    
+    transition: all .3s linear;
 }
+
+.city__names:hover{
+    fill: #34ace0;
+}
+
+.water__names{
+    fill: #192a56;
+    
+    font-size: 11px;
+    
+    cursor: pointer;
+}
+
+.water__names:hover{
+    fill: #34ace0;
+}
+
+.water__icon{
+    cursor: pointer;
+}
+
+.city__card{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 300px;
+    
+    border: none;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    overflow: hidden;
+    
+    background-color: #f4f4f4;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    z-index: 99;
+}
+
+.card__title{
+    width: 100%;
+    
+    text-align: center;
+    
+    background-color: #1B9CFC;
+    color: #f5f6fa; 
+    
+    font-size: 20px;
+    font-weight: 600;
+    
+    padding: 10px 0;
+}
+
+#card__p{
+    width: 100%;
+    
+    text-align: center;
+    
+    background-color: #1B9CFC;
+    color: #f5f6fa; 
+    
+    font-size: 15px;
+    font-weight: 600;
+    
+    padding: 5px 0;
+}
+
+.card__text{
+    font-size: 15px;
+    
+    text-align: justify;
+    
+    line-height: 1.5;
+    
+    padding: 20px;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 500;
+    
+    padding-right: 20px;
+    
+    align-self: flex-end;    
+    
+    transition: all .3s linear;
+}
+
+.more:hover{
+    color: #1B9CFC;
+}
+
+.wheretogo{
+    font-weight: 500;
+    
+    align-self: flex-start;
+    
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+    cursor: auto;
+}
+
+.card__img{
+    height: 200px;
+}
+
+.fa-chevron-right{
+    font-size: 13px;
+    
+    margin-left: 5px;
+    margin-bottom: -2px;
+    
+    transition: all .3s linear;
+}
+
+.fa-chevron-right:hover{
+    color: #1B9CFC;
+}
+
+#close__card{
+    font-size: 30px;
+    
+    color: #f5f6fa;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    
+    cursor: pointer;
+    
+    transition: all .3s linear;
+}
+
+#close__card:hover{
+    color: #000000;
+}
+
 
 /*MAP-SECTION---END*/
 
