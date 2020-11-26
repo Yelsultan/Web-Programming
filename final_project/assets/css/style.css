@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+    user-select: none;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+/*HEADER---START*/
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.header__inner {
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-road {
+    color: #ffffff;
+
+    font-size: 60px;
+
+    margin-left: 20px;
+
+    transition: all .2s linear;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__item {
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    transition: all .2s linear;
+
+    margin-right: 30px;
+}
+
+.nav__item:hover {
+    color: #48b1ff;
+}
+
+#bars {
+    display: none;
+
+    font-size: 30px;
+
+    color: #ffffff;
+}
+
+/*HEADER---END*/
+
+
+
+/*MAIN-SECTION---START*/
+.main__section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.main__title {
+    font-size: 50px;
+
+    color: #ffffff;
+
+    margin-bottom: 20px;
+
+    transition: all .2s linear;
+}
+
+.mainhidden__title {
+    display: none;
+
+    color: #ffffff;
+
+    margin-bottom: 20px;
+
+    transition: all .2s linear;
+}
+
+.main__text {
+    font-size: 25px;
+    font-weight: 500;
+
+    color: #ffffff;
+
+    margin-bottom: 17px;
+
+    transition: all .2s linear;
+}
+
+.view__button {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 7px;
+
+    height: 35px;
+    width: 150px;
+
+    color: #ffffff;
+    background: #1B9CFC;
+
+    cursor: pointer;
+
+    transition: all .2s linear;
+}
+
+.fa-eye {
+    color: #ffffff;
+}
+
+.view__button:hover {
+    background: #1a88d9;
+}
+
+/*MAIN-SECTION---END*/
+
+
+
+/*MAP-SECTION---START*/
+.map__section {
+    overflow: hidden;
+
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.map {
+    height: 100vh;
+}
+
+#map__title {
+    max-width: 1200px;
+
+    font-size: 40px;
+}
+
+.mapdiv {
+    width: 90%;
+
+    margin: auto;
+
+    filter: drop-shadow(10px 10px 10px #acacac);
+
+    position: relative;
+    left: 10%;
+    top: 7%;
+}
+
+.mapdiv path {
+    fill: #ecf0f1;
+    stroke: #bcbcbc;
+    stroke-width: .5px;
+
+    transition: fill 0.2s linear;
+}
+
+.mapdiv a {
+    cursor: pointer;
+}
+
+.mapdiv a :hover {
+    fill: #f1c40f;
+}
+
+.city__names {
+    fill: #192a56;
+
+    cursor: pointer
+}
+
+/*MAP-SECTION---END*/
+
+
+
+/*RESPONSIVE---START*/
+@media(max-width: 769px) {
+
+    /*HEADER-START*/
+    .fa-road {
+        font-size: 50px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #bars {
+        display: flex;
+
+        margin-right: 20px;
+    }
+
+    /*HEADER-END*/
+
+    /*MAINPAGE-START*/
+    .main__title {
+        font-size: 35px;
+    }
+
+    .main__text {
+        font-size: 18px;
+    }
+
+    .view__button {
+        font-size: 11px;
+
+        height: 29px;
+        width: 110px;
+    }
+
+    /*MAINPAGE-END*/
+
+
+}
+
+@media(max-width: 551px) {
+
+    /*MAIN PAGE START*/
+    .main__title {
+        font-size: 27px;
+
+        margin-bottom: 9px;
+    }
+
+    .main__text {
+        font-size: 15px;
+
+        margin-bottom: 9px;
+    }
+
+    .view__button {
+        font-size: 9px;
+        height: 26px;
+        width: 89px;
+    }
+
+    /*MAIN PAGE END*/
+}
+
+@media(max-width: 421px) {
+
+    /*MAIN PAGE START*/
+    .main__title {
+        display: none
+    }
+
+    .mainhidden__title {
+        display: flex;
+
+        font-size: 40px;
+
+        margin-bottom: 10px;
+    }
+
+    .main__text {
+        font-size: 20px;
+
+        margin-bottom: 9px;
+    }
+
+    .view__button {
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+    }
+
+    /*MAIN PAGE END*/
+}
+
+/*RESPONSIVE---END*/
